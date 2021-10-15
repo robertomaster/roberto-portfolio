@@ -53,7 +53,7 @@ export default class App extends Component {
           <a
             href={"https://wa.me/+593995406061"}
             target={"_blank"}
-            rel="noopener noreferrer"
+            rel="noreferrer"
             onMouseOver={() => this.onHover("w")}
             onMouseLeave={() => this.onLeave("w")}
           >
@@ -71,7 +71,7 @@ export default class App extends Component {
 
           <a
             href={"https://www.linkedin.com/in/roberto-garces-2021"}
-            rel="noopener noreferrer"
+            rel="noreferrer"
             target={"_blank"}
             onMouseOver={() => this.onHover("fb")}
             onMouseLeave={() => this.onLeave("fb")}
@@ -89,7 +89,7 @@ export default class App extends Component {
           </a>
           <a
             href={"https://github.com/robertomaster"}
-            rel="noopener noreferrer"
+            rel="noreferrer"
             target={"_blank"}
             onMouseOver={() => this.onHover("git")}
             onMouseLeave={() => this.onLeave("git")}
