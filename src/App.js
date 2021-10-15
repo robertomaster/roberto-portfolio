@@ -36,7 +36,7 @@ export default class App extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "#000000", height: "100%" }}>
-        <Lottie options={defaultOptions} height={400} width={500} />
+        <Lottie options={defaultOptions} height={400} width={415} />
         <p style={{ color: "#B1DAF5", textAlign: "center", fontSize: 50 }}>
           <code>Site under construction</code>
         </p>
