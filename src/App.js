@@ -4,6 +4,7 @@ import animationData from "./animations/under_construction";
 import whatsapp from "./animations/whatsapp";
 import git from "./animations/git";
 import linkedin from "./animations/linkedin";
+import imagen from "./res/imagen.png";
 
 const defaultOptions = {
   loop: true,
@@ -39,10 +40,18 @@ export default class App extends Component {
         <p style={{ color: "#B1DAF5", textAlign: "center", fontSize: 50 }}>
           <code>Site under construction</code>
         </p>
+        <div
+          style={{
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex",
+          }}
+        >
+          <img src={imagen} alt="imagen" width="80" height="80" />
+        </div>
         <p style={{ color: "#B1DAF5", textAlign: "center" }}>
           <code>CONTACT ME</code>
         </p>
-
         <div
           style={{
             alignItems: "center",
